@@ -467,8 +467,7 @@ def assign_loopback_ip(module, loopback_address):
 
     cli = pn_cli(module)
     clicopy = cli
-    switch_list = list(module.params['pn_spine_list'])
-    switch_list += module.params['pn_leaf_list']
+    switch_list = module.params['pn_spine_list'] + module.params['pn_leaf_list']
 
     vrouter_count = 1
     for switch in switch_list:
