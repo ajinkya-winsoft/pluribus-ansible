@@ -185,7 +185,7 @@
     </playbook>
 
     <playbook>
-        <name>Dlink Fabric Creation</name>
+        <name>Basic Fabric Creation</name>
         <image>  </image>
         <description>Fabric creation playbook. This playbook creates fabric from the host file.</description>
         <csvValidationFileName></csvValidationFileName>
